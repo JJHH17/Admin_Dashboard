@@ -1,7 +1,13 @@
+* {
+    margin : 0;
+}
+
 #parentArea {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 10rem 1fr ;
+    grid-template-rows: 125px 1fr 35px;
+    width: 100vw;
+    height: 100vh;
 }
 
 #header {
@@ -11,6 +17,10 @@
 #sidebar {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
+    background-color: lightskyblue;
+    width: 100%;
+    height: 100%;
+
 }
 
 #mainBody {
