@@ -33,12 +33,17 @@
     gap: 7px;
 }
 
-
-
 #sidebar button {
     background-color: teal;
     border: 0;
     color: white;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 70px 5fr 1.5fr 1.3fr 1.2fr;
+    grid-template-rows: repeat(2, 50px);
+    padding: 20px;
 }
 
 #mainBody {
