@@ -48,6 +48,9 @@
 
 #mainBody {
     grid-column: 2 / -2 ;
+    display: grid;
+    grid-template-columns: 30% 30%;    
+    grid-template-rows: repeat(5, 1fr);
 }
 
 #footer {
