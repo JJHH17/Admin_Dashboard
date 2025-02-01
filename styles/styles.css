@@ -18,9 +18,27 @@
 #sidebar {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
-    background-color: rgb(65, 175, 175);
+    background-color: teal;
     width: 100%;
     height: 100%;
+    text-align: center;
+    color: white;
+}
+
+#sidebarTitle, #buttonRow1, #buttonRow2{
+    padding-top: 1.5rem;
+}
+
+#buttonRow1, #buttonRow2 {
+    gap: 7px;
+}
+
+
+
+#sidebar button {
+    background-color: teal;
+    border: 0;
+    color: white;
 }
 
 #mainBody {
