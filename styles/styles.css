@@ -1,0 +1,22 @@
+#parentArea {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#header {
+    grid-column: 2 / 3;
+}
+
+#sidebar {
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+}
+
+#mainBody {
+    grid-column: 2 / -2 ;
+}
+
+#footer {
+    grid-row: 3 / -1;
+}
