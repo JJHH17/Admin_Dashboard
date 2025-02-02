@@ -88,6 +88,30 @@
     grid-row: 6 / 8;
 }
 
+#announcementsTitle {
+    grid-column: 3 / 3;
+}
+
+#siteMaintenance {
+    grid-column: 4 / 3;
+}
+
+#communityEvents {
+    grid-column: 4 / 3;
+}
+
+#policies {
+    grid-column: 4 / 3;
+}
+
+#trending {
+    grid-column: 4 / 3 ;
+}
+
+#user3 {
+    grid-column: 4 / 3;
+}
+
 #footer {
     grid-row: 3 / -1;
     background-color: lightgrey;
