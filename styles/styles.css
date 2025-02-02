@@ -60,10 +60,15 @@ button {
     padding: 20px;
 }
 
-#human, #bell {
-    font-size: 2.5rem;
-    align-content: center;
+#bell {
+    font-size: 1.7rem;
     color: teal;
+    justify-content: center;
+}
+
+#humanTwo {
+    color: teal;
+    font-size: 1.2rem;
 }
 
 #mainBody {
